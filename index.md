@@ -8,6 +8,8 @@ The AWS Athena [billing model](https://aws.amazon.com/athena/pricing/) is primar
 ### Compression
 
 ## Use Cases
+Given the relatively cheap storage cost of S3 (especially when compared to venues such as EBS), S3 presents itself as an ideal solution for mid to long term log retention, or even scenarios where aggregated log volume may render traditional hot storage options as cost prohibitive.
+
 
 ### WAF Logs
 
