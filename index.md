@@ -11,20 +11,25 @@ The AWS Athena [billing model](https://aws.amazon.com/athena/pricing/) is primar
 
 ### WAF Logs
 
+Example Create Table Title
 ```markdown
 Example Create Table
-
+```
+Example Query Title
 ```markdown
 Example Query
+```
 
 ### ALB Logs
 
+Example Create Table Title
 ```markdown
 Example Create Table
-
+```
+Example Query Title
 ```markdown
 Example Query
-
+```
 
 
 ```markdown
