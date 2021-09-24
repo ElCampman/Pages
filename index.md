@@ -1,12 +1,31 @@
-## AWS Athena 
-AWS Athena 
-You can use the [editor on GitHub](https://github.com/ElCampman/Pages/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# AWS Athena 
+AWS Athena is a serverless interactive analytics offering by Amazon, which focuses on providing a means to query data stored in S3 buckets using SQL syntax. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-Syntax highlighted code block
-### Markdown
+## Optimization
+The AWS Athena [billing model](https://aws.amazon.com/athena/pricing/) is primarily calculated from the volume of data scanned by each query.  As such it it would behoove us to leverage a means to reduce data scanned; to which there exists a few options.  In addition to realized cost savings, optimization techniques also serve to enhance query response performance.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Partitioning
+### Compression
+
+## Use Cases
+
+### WAF Logs
+
+```markdown
+Example Create Table
+
+```markdown
+Example Query
+
+### ALB Logs
+
+```markdown
+Example Create Table
+
+```markdown
+Example Query
+
+
 
 ```markdown
 Syntax highlighted code block
